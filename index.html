@@ -11,12 +11,12 @@
 <body>
     <!--Header-->
     <header>
-        <nav>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About Me</a></li>
-                <li><a href="">Projects</a></li>
-                <li><a href="">Contact</a></li>
+        <nav id="navbar">
+            <ul class="nav-list">
+                <li><a href="#home-section">Home</a></li>
+                <li><a href="#about-me-section">About Me</a></li>
+                <li><a href="#project-section">Projects</a></li>
+                <li><a href="#contact-section">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -24,13 +24,18 @@
     <!--Main-->
     <main>
         <!--Welcome Section-->
-        <section>
-            <h1>Hi! I'm Kae Lam</h1>
-            <p>Year 2 Computer Science Student from APU.</p>
-        </section>
+        <section id="home-section">
+            <div>
+                <h1>Hi! I'm Kae Lam</h1>
+                <p>Year 2 Computer Science Student from APU.</p>
+            </div>
+            <div>
+                <img src="C:\Users\Callum Wong\IdeaProjects\UniversityFoodOrderingSystem\portfolio\c7ce8cc7-ffc5-4593-a183-268934e2b7b6.jpeg" alt="Profile avatar of Wong Kae Lam.">
+            </div>    
+            </section>
 
         <!--About Me Section-->
-        <section>
+        <section id="about-me-section">
             <h1>About Me</h1>
             <p>I am Wong Kae Lam and based in Kuala Lumpur, Malaysia. 
                 Currently, I am pursuing a Bachelor's Degree majoring in Computer Science 
@@ -44,7 +49,7 @@
         </section>
 
         <!--Skill Set + Education Section-->
-        <section>
+        <section id="skill-education-section">
             <!--Skill Set DIV-->
             <div>
                 <h2>Skill Set</h2>
@@ -75,7 +80,7 @@
         </section>
 
         <!--Projects Section-->
-        <section>
+        <section id="project-section">
             <h2 class="project-section-header">Projects</h2>
             <div class="project-tile">
                 <!--First Project-->
@@ -117,7 +122,7 @@
         </section>  
         
         <!--Contact Section-->
-        <section>
+        <section id="contact-section">
             <div class="contact-header">
                 <h2>Let's Connect</h2>
             </div>
@@ -133,7 +138,7 @@
     <footer>
         <div>
             <span>Wong Kae Lam</span>
-            <p class="cpright">Copyright 2024. All Rights Reserved.</p>
+            <p class="cpright">&copy; Copyright 2024. All Rights Reserved.</p>
         </div>
     </footer>    
 </body>
