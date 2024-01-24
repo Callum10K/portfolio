@@ -5,19 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Kae Lam's Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
     <script src="https://kit.fontawesome.com/7ebedb1697.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <!--Header-->
+    <!--Header for Desktop-->
     <header>
-        <nav id="navbar">
-            <ul class="nav-list">
-                <li><a href="#home-section">Home</a></li>
-                <li><a href="#about-me-section">About Me</a></li>
-                <li><a href="#project-section">Projects</a></li>
-                <li><a href="#contact-section">Contact</a></li>
-            </ul>
+        <nav id="desktop-navbar">
+            <div class="logo">Kae Lam</div>
+            <div>
+                <ul class="nav-list">
+                    <li><a href="#home-section">Home</a></li>
+                    <li><a href="#about-me-section">About Me</a></li>
+                    <li><a href="#project-section">Projects</a></li>
+                    <li><a href="#contact-section">Contact</a></li>
+                </ul>
+            </div>    
+        </nav>
+
+        <!--Header for Mobile-->
+        <nav id="hamburger-navbar">
+            <div class="logo">Kae Lam</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>     
+                <div class="menu-list">
+                    <li><a href="#home-section" onclick="toggleMenu()">Home</a></li>
+                    <li><a href="#about-me-section" onclick="toggleMenu()">About Me</a></li>
+                    <li><a href="#project-section" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#contact-section" onclick="toggleMenu()">Contact</a></li>
+                </div> 
+            </div>   
         </nav>
     </header>
 
@@ -92,7 +114,7 @@
                 <!--Second Project-->
                 <div class="projects">
                     <h1>APU Programming Cafe System</h1>
-                    <p>A tutor scheduling system developed in C using a procedural programming paradigm.</p>
+                    <p>A Tutor Scheduling System developed in C using a procedural programming paradigm.</p>
                 </div>
 
                 <!--Third Project-->
@@ -140,6 +162,9 @@
             <span>Wong Kae Lam</span>
             <p class="cpright">&copy; Copyright 2024. All Rights Reserved.</p>
         </div>
-    </footer>    
+    </footer>
+
+    <!--JS Script-->
+    <script src="script.js"></script>    
 </body>
 </html>
