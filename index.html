@@ -47,20 +47,22 @@
     <main>
         <!--Welcome Section-->
         <section id="home-section">
-            <div class="home-section-container">
-                <img src="profile-picture.png" alt="Profile picture of Wong Kae Lam.">
+            <div class="section__pic-container">
+                <img src="./assets/profile-picture.png" alt="Profile picture of Wong Kae Lam.">
             </div>
-            <div class="home-section-introduction">
-                <p class="home-section-text-p1">Hello, I'm</p>
+            <div class="section__text">
+                <p class="section__text__p1">Hello, I'm</p>
                 <h1 class="title">Kae Lam</h1>
-                <p class="home-section-text-p2">Year 2 Computer Science Student from APU</p>
+                <h2 id="typewriter-h2">
+                    <span id="typewriter"></span><span id="typewriter-cursor">|</span>
+                </h2>
                 <div class="btn-container">
                     <!--Resume To Be Updated (25/1/2024)-->
-                    <button class="btn btn-color-2" onclick="window.open('Resume-Wong-Kae-Lam.pdf')">Download Resume</button>
+                    <button class="btn btn-color-2" onclick="window.open('./assets/Resume-Wong-Kae-Lam.pdf')">Download Resume</button>
                     <button class="btn btn-color-1" onclick="location.href='#contact-section'">Contact Me</button>
                 </div>
             </div>    
-            </section>
+        </section>
 
         <!--About Me Section-->
         <section id="about-me-section">
