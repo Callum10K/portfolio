@@ -162,13 +162,6 @@ section{
     height: 80vh;
 }
 
-.section__pic-container{
-    display: flex;
-    height: 400px;
-    width: 400px;
-    margin: auto 0;
-}
-
 .section__text{
     align-self: center;
     text-align: center;
@@ -265,3 +258,44 @@ section{
         opacity: 0%;   
     }
 }
+
+
+/* About Section */
+#about-me-section{
+    position: relative;
+}
+
+.section-container{
+    height: 60%;
+    gap: 4rem;
+}
+
+.section__pic-container{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+.about-pic{
+    position: relative;
+    border-radius: 2rem;
+}
+
+.text-container{
+    display: flex;
+    justify-content: center top;
+    flex-direction: column;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.about-me-text{
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 1.15rem;
+}
+
+
+
