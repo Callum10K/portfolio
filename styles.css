@@ -180,7 +180,7 @@ section{
 
 .section__text__p1{
     text-align: center;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
 }
 
 .section__text__p2{
@@ -189,8 +189,10 @@ section{
 }
 
 #typewriter-h2{
+    color: rgb(85,85,85);
     font-size: 1.75rem;
     font-weight: 600;
+    margin-bottom: 0.5rem;
 }
 
 .title{
