@@ -351,7 +351,7 @@ section{
     z-index: 99;
     border: none;
     outline: none;
-    background-color: #0c0c0d;
+    background-color: rgb(53, 53, 53);
     color: white;
     cursor: pointer;
     padding: 15px;
