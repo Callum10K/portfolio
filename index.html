@@ -8,8 +8,14 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
     <script src="https://kit.fontawesome.com/7ebedb1697.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="./assets/favicon/favicon.ico">
 </head>
 <body>
+
+    <!-- Back to top button -->
+    <button onclick="topFunction()" id="topBtn" title="Back to Top"><i class='far fa-arrow-alt-circle-up fa-2x'></i></button>
+
+
     <!--Header for Desktop-->
     <header>
         <nav id="desktop-navbar">
@@ -83,38 +89,40 @@
                         I am eager to learn and refine new skills to keep up with the latest 
                         technology within the field.
                     </p>
-                </div>
-        </section>
 
-        <!--Skill Set + Education Section-->
-        <section id="skill-education-section">
-            <!--Skill Set DIV-->
-            <div>
-                <h2>Skill Set</h2>
-                <nav>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>MATLAB GUI</li>
-                        <li>C Programming</li>
-                        <li>R Programming</li>
-                        <li>Java</li>
-                        <li>Python</li>
-                        <li>Microsoft SQL</li>
-                    </ul>
-                </nav>
-            </div>
-            <!--Education DIV-->
-            <div>
-                <h2>Education</h2>
-                <nav>
-                    <ul>
-                        <li>Asia Pacific University (2022-present)</li>
-                        <li>University of Nottingham Malaysia (2021-2022)</li>
-                        <li>The Sequoia International School (2016-2020)</li>
-                    </ul>
-                </nav>
-            </div>
+                    <!--Skill Set + Education-->
+                    <div class="tab-component-container">
+                        <ul class="tabs">
+                            <li data-tab-target="#skills" class="active tab">Skills</li>
+                            <li data-tab-target="#education" class="tab">Education</li>
+                        </ul>
+                        <div class="tab-content">
+                            <div id="skills" data-tab-content class="active">
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>MATLAB GUI</li>
+                                    <li>C Programming</li>
+                                    <li>R Programming</li>
+                                    <li>Java</li>
+                                    <li>Python</li>
+                                    <li>Microsoft SQL</li>
+                                    <li>GitHub</li>
+                                    <li>Ubuntu Linux</li>
+                                </ul>
+                            </div>
+                            <div id="education" data-tab-content>
+                                <ul>
+                                    <li>Asia Pacific University (2022-present)</li>
+                                    <li>University of Nottingham Malaysia (2021-2022)</li>
+                                    <li>The Sequoia International School (2016-2020)</li>
+                                    <li>SJK(C) Batu 14 Hulu Langat (2010-2015)</li>
+                                    <li>Tadika Seri Soka (2007-2009)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
         </section>
 
         <!--Projects Section-->
