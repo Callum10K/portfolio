@@ -1,3 +1,5 @@
+import { Analytics } from '@vercel/analytics/react';
+
 function toggleMenu(){
     const menu = document.querySelector(".menu-list");
     const icon = document.querySelector(".hamburger-icon");
