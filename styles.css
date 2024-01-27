@@ -263,10 +263,11 @@ section{
 /* About Section */
 #about-me-section{
     position: relative;
+    height: 120%;
 }
 
 .section-container{
-    height: 60%;
+    height: 110%;
     gap: 12rem;
 }
 
