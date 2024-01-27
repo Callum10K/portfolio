@@ -325,8 +325,8 @@ section{
 
 .tab:hover{
     color: grey;
-    text-decoration: underline;
-    text-underline-offset: 0.5rem;
+    /*text-decoration: underline;*/
+    /*text-underline-offset: 0.5rem;*/
     text-decoration-color: rgb(181, 181, 181);
 }
 
@@ -361,3 +361,43 @@ section{
   #topBtn:hover {
     background-color: #555;
   }
+
+  /*Project Section*/
+  #project-section{
+    position: relative;
+  }
+
+.color-container{
+    border-color: rgb(163, 163, 163);
+    background: rgb(250, 250, 250);
+}
+
+.project-title{
+    margin: 1rem;
+    color: black;
+}
+
+.experience-details-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.experience-sub-title{
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.details-container{
+    padding: 1rem;
+    margin: 0.5rem;
+    flex: 1 0 33%;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+}
+
